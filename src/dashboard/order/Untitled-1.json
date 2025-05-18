@@ -1,0 +1,109 @@
+{
+    "message": "OrderById fetched successfully",
+    "order": {
+        "pickupLocation": {
+            "latitude": 23.232809,
+            "address": "Maharana Pratap Nagar, Bhopal, Madhya Pradesh 462023 ",
+            "longitude": 77.432238
+        },
+        "deliveryLocation": {
+            "latitude": 23.219337,
+            "longitude": 77.455669,
+            "address": "शक्ति नगर Habib Ganj Bhopal, Madhya Pradesh"
+        },
+        "_id": "68217d9f460d3b93df92032f",
+        "customer": {
+            "liveLocation": {
+                "latitude": 23.219337,
+                "longitude": 77.455669
+            },
+            "_id": "6813d2cfedc40abb41bc6287",
+            "name": "Pramod kumar mishra",
+            "isActivated": true,
+            "role": "customer",
+            "phone": 8754433222,
+            "isProfileComplete": false,
+            "__v": 0,
+            "address": "शक्ति नगर Habib Ganj Bhopal, Madhya Pradesh"
+        },
+        "branch": {
+            "location": {
+                "longitude": 77.433552,
+                "latitude": 23.233368
+            },
+            "_id": "680cada4f5be9a72ba98f5dd",
+            "name": "grocery hub",
+            "address": "bhopal madhya pradesh",
+            "deliveryPartner": [
+                "680caebaf5be9a72ba98f5e5"
+            ],
+            "__v": 0
+        },
+        "items": [
+            {
+                "id": "680c55005838bad2ffde914d",
+                "item": {
+                    "_id": "680c55005838bad2ffde914d",
+                    "name": "Lay's India's Magic Masala Potato Chips",
+                    "price": 16,
+                    "quantity": "48 g",
+                    "category": "680c55005838bad2ffde9144",
+                    "image": "https://m.media-amazon.com/images/I/71+bz5i4SDL._AC_UL640_QL65_.jpg",
+                    "__v": 0
+                },
+                "count": 3,
+                "_id": "68217d9f460d3b93df920330"
+            },
+            {
+                "id": "680c55005838bad2ffde914a",
+                "item": {
+                    "_id": "680c55005838bad2ffde914a",
+                    "name": "Amul Gold Cream Milk",
+                    "price": 34,
+                    "quantity": "500 ml",
+                    "category": "680c55005838bad2ffde9141",
+                    "image": "https://m.media-amazon.com/images/I/812816L+HkL._AC_UL640_QL65_.jpg",
+                    "__v": 0
+                },
+                "count": 3,
+                "_id": "68217d9f460d3b93df920331"
+            },
+            {
+                "id": "680c55005838bad2ffde914c",
+                "item": {
+                    "_id": "680c55005838bad2ffde914c",
+                    "name": "Nestle Milkmaid",
+                    "price": 380,
+                    "quantity": "348 g",
+                    "category": "680c55005838bad2ffde9141",
+                    "image": "https://m.media-amazon.com/images/I/71tikpIQnbL._AC_UL640_QL65_.jpg",
+                    "__v": 0
+                },
+                "count": 1,
+                "_id": "68217d9f460d3b93df920332"
+            }
+        ],
+        "totalPrice": 530,
+        "status": "available",
+        "createdAt": "2025-05-12T04:48:31.917Z",
+        "updatedAt": "2025-05-12T04:48:31.917Z",
+        "orderId": "ORDER00011",
+        "__v": 0,
+        "deliveryPartner": {
+            "liveLocation": {
+                "longitude": 77.432101,
+                "latitude": 23.241602
+            },
+            "_id": "680caebaf5be9a72ba98f5e5",
+            "name": "pramod singh",
+            "isActivated": true,
+            "role": "deliveryPartner",
+            "email": "delivery@gmail.com",
+            "password": "12345",
+            "phone": 9630811908,
+            "address": "hosangabad road bhopal",
+            "branch": "680cada4f5be9a72ba98f5dd",
+            "__v": 0
+        }
+    }
+}
